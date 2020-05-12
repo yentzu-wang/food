@@ -1,7 +1,7 @@
 import React from "react"
 import { StyleSheet, Text, View, Image } from "react-native"
 
-const ResultsDetail = ({ item: result }) => {
+const ResultsDetail = ({ result }) => {
   return (
     <View style={styles.container}>
       <Image source={{ uri: result.image_url }} style={styles.image} />
